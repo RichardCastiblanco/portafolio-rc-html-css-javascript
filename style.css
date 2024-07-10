@@ -344,8 +344,15 @@ ul,li{
     background-color: #304463;
     color: wheat;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 23px;
     width: 300px;
+    height: 30px;
+}
+
+.h2-1:hover{
+    background-color: chocolate;
+    color: #1A2130;
+    cursor: pointer;
 }
 
 /*contenedor-3*/
@@ -398,6 +405,11 @@ ul,li{
   text-decoration: none;
 }
 
+.etiqueta-a-gmail:hover{
+  background-color: chocolate;
+  color: #1A2130;
+}
+
 .logo-gmail{
   width: 30px;
   height: 30px;
@@ -417,6 +429,16 @@ ul,li{
   text-decoration: none;
 }
 
+.etiqueta-Github:hover{
+  background-color: chocolate;
+  color: #1A2130;
+}
+
+.logo-github{
+  width: 30px;
+  height: 30px;
+}
+
 .etiqueta-a-cv{
   display: flex;
   align-items: center;
@@ -429,6 +451,11 @@ ul,li{
   width: 150px;
   height: 35px;
   text-decoration: none;
+}
+
+.etiqueta-a-cv:hover{
+  background-color: chocolate;
+  color: #1A2130;
 }
 
 .logo-cv{
@@ -448,6 +475,11 @@ ul,li{
   width: 150px;
   height: 35px;
   text-decoration: none;
+}
+
+.etiqueta-Twitch:hover{
+  background-color: chocolate;
+  color: #1A2130;
 }
 
 .Twitch{
@@ -598,6 +630,11 @@ ul,li{
   border-radius: 30px;
 }
 
+.code:hover{
+  background-color: chocolate;
+  color: #1A2130;
+}
+
 
 .ver-logo{
   width: 40px;
@@ -635,6 +672,13 @@ ul,li{
   margin-bottom: 10px;
   margin-left: 15px;
 }
+
+.svg--1:hover{
+  background-color: chocolate;
+  color: #1A2130;
+  cursor: pointer;
+}
+
 
 /* footer */
 .footer {
