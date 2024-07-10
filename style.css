@@ -381,7 +381,7 @@ ul,li{
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
-  margin-right: 50px;
+  
 }
 
 .etiqueta-a-gmail{
@@ -461,8 +461,9 @@ ul,li{
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-right: 400px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .portafolio-logo{
@@ -529,8 +530,15 @@ ul,li{
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+  margin-bottom: 50px;
   margin-right: 450px;
   gap: 15px;
+}
+
+.contenedor-8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .h3-2{
@@ -540,6 +548,13 @@ ul,li{
   text-align: center;
   font-size: 1.8rem;
   color: white;
+}
+
+.h4-1{
+  
+  font-size: 1.3rem;
+  font-weight: 900;
+  width: 250px;
 }
 
 .contenedor-9{
@@ -552,19 +567,73 @@ ul,li{
   width: 400px;
   height: 250px;
   border-radius: 20px;
+  margin-left: 170px;
 }
 
-.Code{
-  color: white;
+.links-code{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 15px;
+  margin-right: 60px;
+}
+
+.ver{
+  width: 30px;
+  height: 30px;
+}
+
+.code{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: wheat;
+  text-align: center;
+  text-decoration: none;
   background-color: #304463;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   border-radius: 30px;
 }
+
 
 .ver-logo{
   width: 40px;
   height: 40px;
+}
+
+.h4-1{
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 900;
+  width: 250px;
+  margin-left: 20px;
+}
+
+.parrafo-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.svg--1{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ECCA2F;
+  width: 140px;
+  height: 25px;
+  border-radius: 50px;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 /* footer */
@@ -646,4 +715,65 @@ ul,li{
       display: grid;
     }
 
+    .contenedor-5{
+      margin-right: 50px;
+    }
+
+    .contenedor-6{
+      display: grid;
+    }
+
+    .contenedor-7{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 50px;
+    }
+
+    .contenedor-8{
+      display: grid;
+    }
+
+    .contenedor-9{
+      display: grid;
+    }
+
+    .img-1{
+      width: 300px;
+      height: 250px;
+      margin-left: -300px;
+    }
+
+    .tecnologias-1{
+      margin-left: -20px;
+    }
+
+    .parrafo-2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-left: -70px;
+      width: 350px;
+    }
+
+    .h4-1{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .svg--1{
+      margin-left: 0px;
+    }
+
+    .links-code{
+      margin-right: 130px;
+    }
+
+    .footer{
+      font-size: 0.9rem;
+      width: 300px;
+      margin-left: 60px;
+    }
+   
 }  
